@@ -1,0 +1,54 @@
+[0.047s] Invoking command in '/home/chenbk/whisper_ros-main/whisper_ros/build/whisper_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chenbk/test_ws/install/string_publisher:/opt/ros/humble /usr/bin/cmake /home/chenbk/whisper_ros-main/whisper_ros -DCMAKE_INSTALL_PREFIX=/home/chenbk/whisper_ros-main/whisper_ros/install/whisper_ros
+[0.451s] -- The C compiler identification is GNU 11.4.0
+[0.697s] -- The CXX compiler identification is GNU 11.4.0
+[0.721s] -- Detecting C compiler ABI info
+[1.009s] -- Detecting C compiler ABI info - done
+[1.031s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.033s] -- Detecting C compile features
+[1.035s] -- Detecting C compile features - done
+[1.044s] -- Detecting CXX compiler ABI info
+[1.313s] -- Detecting CXX compiler ABI info - done
+[1.335s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.336s] -- Detecting CXX compile features
+[1.337s] -- Detecting CXX compile features - done
+[1.348s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.761s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.001s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[2.136s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.151s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.173s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.209s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.255s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.380s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.387s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.892s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.983s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.127s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.159s] -- Looking for pthread.h
+[3.465s] -- Looking for pthread.h - found
+[3.467s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.734s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.737s] -- Found Threads: TRUE  
+[3.902s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[4.135s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.220s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[4.308s] -- Configuring incomplete, errors occurred!
+[4.308s] See also "/home/chenbk/whisper_ros-main/whisper_ros/build/whisper_ros/CMakeFiles/CMakeOutput.log".
+[4.309s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[4.309s]   By not providing "Findwhisper_msgs.cmake" in CMAKE_MODULE_PATH this project
+[4.309s]   has asked CMake to find a package configuration file provided by
+[4.310s]   "whisper_msgs", but CMake did not find one.
+[4.310s] 
+[4.310s]   Could not find a package configuration file provided by "whisper_msgs" with
+[4.310s]   any of the following names:
+[4.310s] 
+[4.310s]     whisper_msgsConfig.cmake
+[4.310s]     whisper_msgs-config.cmake
+[4.310s] 
+[4.311s]   Add the installation prefix of "whisper_msgs" to CMAKE_PREFIX_PATH or set
+[4.311s]   "whisper_msgs_DIR" to a directory containing one of the above files.  If
+[4.311s]   "whisper_msgs" provides a separate development package or SDK, be sure it
+[4.311s]   has been installed.
+[4.311s] 
+[4.312s] [0m
+[4.336s] Invoked command in '/home/chenbk/whisper_ros-main/whisper_ros/build/whisper_ros' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chenbk/test_ws/install/string_publisher:/opt/ros/humble /usr/bin/cmake /home/chenbk/whisper_ros-main/whisper_ros -DCMAKE_INSTALL_PREFIX=/home/chenbk/whisper_ros-main/whisper_ros/install/whisper_ros

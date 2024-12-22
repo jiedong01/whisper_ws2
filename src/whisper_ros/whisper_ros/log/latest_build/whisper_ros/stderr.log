@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:15 (find_package):
+  By not providing "Findwhisper_msgs.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "whisper_msgs", but CMake did not find one.
+
+  Could not find a package configuration file provided by "whisper_msgs" with
+  any of the following names:
+
+    whisper_msgsConfig.cmake
+    whisper_msgs-config.cmake
+
+  Add the installation prefix of "whisper_msgs" to CMAKE_PREFIX_PATH or set
+  "whisper_msgs_DIR" to a directory containing one of the above files.  If
+  "whisper_msgs" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m
