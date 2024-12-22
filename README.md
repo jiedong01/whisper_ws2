@@ -1,7 +1,7 @@
 #   环境配置参考：https://github.com/mgonzs13/whisper_ros
 #   请将所有ros2_ws改成你的workspsace
 
-### 本代码属于两台电脑配合版：
+### 本代码属于两台电脑配合版：分别放在两个branch里面
 #### 电脑1：（实现麦克风听取语音）启用whisper_ws2   
 `<cd whisper_ws2>`
 
